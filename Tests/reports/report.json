@@ -1,0 +1,50 @@
+[
+  {
+    "description": "Calculation Angular",
+    "assertions": [
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      }
+    ],
+    "events": [
+      {
+        "emitterEvent": "testPass",
+        "name": "Given I am on calculator page",
+        "category": "Calculation Angular usage: Calculation Angular",
+        "durationMillis": 1176,
+        "sourceLocation": {
+          "filePath": "features\\myfeature.feature",
+          "line": 4,
+          "column": 5
+        },
+        "progress": {
+          "step": 1,
+          "steps": 1
+        }
+      }
+    ],
+    "emitToTestRunner": [
+      [
+        "testPass",
+        {
+          "name": "Given I am on calculator page",
+          "category": "Calculation Angular usage: Calculation Angular",
+          "durationMillis": 1176,
+          "sourceLocation": {
+            "filePath": "features\\myfeature.feature",
+            "line": 4,
+            "column": 5
+          },
+          "progress": {
+            "step": 1,
+            "steps": 1
+          }
+        }
+      ]
+    ],
+    "duration": 1177
+  }
+]

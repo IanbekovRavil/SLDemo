@@ -1,0 +1,36 @@
+{
+  "name": "nodejs-cucumber-sample",
+  "version": "0.0.1",
+  "description": "Minimal project to show how to setup  [cucumber](http: //cukes.info/) for nodejs environment",
+  "scripts": {
+    "test": "protractor conf.js"
+  },
+  "keywords": [
+    "cucumberjs",
+    "bdd",
+    "setup",
+    "bootstrap",
+    "tdd",
+    "test",
+    "testing",
+    "gherkin",
+    "cucumber"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "chai": "latest",
+    "cucumber": "latest",
+    "protractor": "latest",
+    "protractor-cucumber-framework": "latest"
+  },
+  "devDependencies": {
+    "chai-as-promised": "latest",
+    "cucumber-html-report": "latest",
+    "cucumber-html-reporter": "latest",
+    "cucumberjs-allure-reporter": "latest",
+    "pg": "latest"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  }
+}
