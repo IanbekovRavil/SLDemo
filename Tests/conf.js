@@ -2,7 +2,7 @@ exports.config = {
 
     directConnect: true,
 
-    baseUrl: 'http://localhost:3000/',
+    baseUrl: 'http://juliemr.github.io/protractor-demo/',
 
     capabilities: {
         'browserName': (process.env.TEST_BROWSER_NAME || 'chrome'),
