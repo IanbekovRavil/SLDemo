@@ -7,6 +7,18 @@
       },
       {
         "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
       }
     ],
     "events": [
@@ -14,7 +26,7 @@
         "emitterEvent": "testPass",
         "name": "Given I am on calculator page",
         "category": "Calculation Angular usage: Calculation Angular",
-        "durationMillis": 1176,
+        "durationMillis": 1465,
         "sourceLocation": {
           "filePath": "features\\myfeature.feature",
           "line": 4,
@@ -22,7 +34,67 @@
         },
         "progress": {
           "step": 1,
-          "steps": 1
+          "steps": 5
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "When I type \"1\" as a first argument",
+        "category": "Calculation Angular usage: Calculation Angular",
+        "durationMillis": 2068,
+        "sourceLocation": {
+          "filePath": "features\\myfeature.feature",
+          "line": 5,
+          "column": 2
+        },
+        "progress": {
+          "step": 2,
+          "steps": 5
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "And I type \"2\" as a second argument",
+        "category": "Calculation Angular usage: Calculation Angular",
+        "durationMillis": 2041,
+        "sourceLocation": {
+          "filePath": "features\\myfeature.feature",
+          "line": 6,
+          "column": 2
+        },
+        "progress": {
+          "step": 3,
+          "steps": 5
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "And I click operation button",
+        "category": "Calculation Angular usage: Calculation Angular",
+        "durationMillis": 69,
+        "sourceLocation": {
+          "filePath": "features\\myfeature.feature",
+          "line": 7,
+          "column": 2
+        },
+        "progress": {
+          "step": 4,
+          "steps": 5
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "Then I should see \"3\" calculation result",
+        "category": "Calculation Angular usage: Calculation Angular",
+        "durationMillis": 2048,
+        "sourceLocation": {
+          "filePath": "features\\myfeature.feature",
+          "line": 8,
+          "column": 2
+        },
+        "progress": {
+          "step": 5,
+          "steps": 5
         }
       }
     ],
@@ -32,7 +104,7 @@
         {
           "name": "Given I am on calculator page",
           "category": "Calculation Angular usage: Calculation Angular",
-          "durationMillis": 1176,
+          "durationMillis": 1465,
           "sourceLocation": {
             "filePath": "features\\myfeature.feature",
             "line": 4,
@@ -40,11 +112,79 @@
           },
           "progress": {
             "step": 1,
-            "steps": 1
+            "steps": 5
+          }
+        }
+      ],
+      [
+        "testPass",
+        {
+          "name": "When I type \"1\" as a first argument",
+          "category": "Calculation Angular usage: Calculation Angular",
+          "durationMillis": 2068,
+          "sourceLocation": {
+            "filePath": "features\\myfeature.feature",
+            "line": 5,
+            "column": 2
+          },
+          "progress": {
+            "step": 2,
+            "steps": 5
+          }
+        }
+      ],
+      [
+        "testPass",
+        {
+          "name": "And I type \"2\" as a second argument",
+          "category": "Calculation Angular usage: Calculation Angular",
+          "durationMillis": 2041,
+          "sourceLocation": {
+            "filePath": "features\\myfeature.feature",
+            "line": 6,
+            "column": 2
+          },
+          "progress": {
+            "step": 3,
+            "steps": 5
+          }
+        }
+      ],
+      [
+        "testPass",
+        {
+          "name": "And I click operation button",
+          "category": "Calculation Angular usage: Calculation Angular",
+          "durationMillis": 69,
+          "sourceLocation": {
+            "filePath": "features\\myfeature.feature",
+            "line": 7,
+            "column": 2
+          },
+          "progress": {
+            "step": 4,
+            "steps": 5
+          }
+        }
+      ],
+      [
+        "testPass",
+        {
+          "name": "Then I should see \"3\" calculation result",
+          "category": "Calculation Angular usage: Calculation Angular",
+          "durationMillis": 2048,
+          "sourceLocation": {
+            "filePath": "features\\myfeature.feature",
+            "line": 8,
+            "column": 2
+          },
+          "progress": {
+            "step": 5,
+            "steps": 5
           }
         }
       ]
     ],
-    "duration": 1177
+    "duration": 7691
   }
 ]

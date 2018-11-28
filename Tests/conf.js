@@ -33,7 +33,8 @@ exports.config = {
 
         monochrome: true,
         strict: true,
-        plugin: ["pretty"],
+        plugin: ["json:test.json"],
+		plugin: ["pretty"],
         require: ['./features/step_definitions/*.js']
     }
 };
